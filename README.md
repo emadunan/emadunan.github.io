@@ -15,3 +15,5 @@ git branch -M master
 git push -u origin master
 
 ## This is my first published page on the internet.
+
+## Technologies used in this app:
