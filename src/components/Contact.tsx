@@ -3,7 +3,7 @@ import styles from "./Contact.module.css";
 
 const Contact: React.FC = () => {
   return (
-    <section className={styles.contact}>
+    <section className={styles.contact} id="contact">
       <h2>Contact Me</h2>
       <p className={styles.intro}>
         I’d love to hear from you — whether it’s a project idea, collaboration, or just a friendly hello.

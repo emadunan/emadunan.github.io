@@ -57,3 +57,7 @@
   --regularPhoneWidth: 30em;
   --smallPhoneWidth: 22.5em;
 }
+
+html {
+  scroll-behavior: smooth;
+}

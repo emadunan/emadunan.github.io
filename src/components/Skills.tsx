@@ -13,9 +13,9 @@ const Skills: React.FC = () => {
             <li>JavaScript</li>
             <li>TypeScript</li>
             <li>HTML & CSS</li>
-            <li>Python</li>
+            <li>SQL</li>
             <li>C++ / C#</li>
-            <li>SQL Server</li>
+            <li>Python</li>
           </ul>
         </div>
 
@@ -23,9 +23,8 @@ const Skills: React.FC = () => {
           <h3>Frameworks & Libraries</h3>
           <ul>
             <li>React / Next.js</li>
-            <li>Angular</li>
             <li>Nest.js</li>
-            <li>Django</li>
+            <li>Angular</li>
             <li>.NET</li>
             <li>Tailwind CSS</li>
           </ul>
@@ -38,8 +37,8 @@ const Skills: React.FC = () => {
             <li>PostgreSQL</li>
             <li>Docker</li>
             <li>Linux</li>
-            <li>Git / GitHub / GitHub Actions</li>
             <li>Nginx</li>
+            <li>Git / GitHub / GitHub Actions</li>
           </ul>
         </div>
 
