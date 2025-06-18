@@ -9,7 +9,7 @@ const Bio: React.FC = () => {
         I’m <strong>Emad Younan</strong>, a full-stack web developer from Egypt with over 7 years of hands-on experience in JavaScript, TypeScript, React, Next.js, NestJS, and PostgreSQL. I build elegant, performant, and scalable applications for the modern web.
       </p>
       <p>
-        My journey is deeply shaped by resilience. As a Christian raised in a majority-Muslim society, I’ve faced systemic discrimination since childhood. Despite the hardships, I chose the path of growth, peace, and purpose—committed to overcoming adversity through hard work and grace.
+        My journey has been shaped by deep faith, national pride, and resilience. As a Christian in Egypt, I’ve encountered unique challenges, but I’ve always chosen to respond with strength, compassion, and a commitment to excellence. I love my country and believe in making a positive difference—guided by the teachings of Jesus to overcome adversity with grace and perseverance.
       </p>
       <p>
         I served as an officer in the Egyptian Police after graduating with a degree in Information Systems. During my decade of service, I specialized in technical infrastructure and systems administration. In 2017, I transitioned to web development, pouring years of intense study into becoming a certified, skilled, and passionate developer.
