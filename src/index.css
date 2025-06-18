@@ -1,68 +1,59 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /* Light/Dark Anchors */
+  --max: #001f2d;
+  --max-rgb: 0, 31, 45;
+  --min: #f7fdfc;
+  --min-rgb: 247, 253, 252;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* Base Text & Background */
+  --text: #12372a;
+  --text-rgb: 18, 55, 42;
+  --background: #e0f7f5;
+  --background-rgb: 224, 247, 245;
+  --background-hover: #c6efea;
+  --background-hover-rgb: 198, 239, 234;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  /* Primary Theme */
+  --primary: #1fb6aa; /* Teal */
+  --primary-rgb: 31, 182, 170;
+  --primary-hover: #159e94;
+  --primary-hover-rgb: 21, 158, 148;
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+  /* Secondary (Lighter Teal/Seafoam) */
+  --secondary: #a8edea;
+  --secondary-rgb: 168, 237, 234;
+  --secondary-hover: #91e6e2;
+  --secondary-hover-rgb: 145, 230, 226;
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+  /* Accent (Deep Blue-Green) */
+  --accent: #076678;
+  --accent-rgb: 7, 102, 120;
+  --accent-hover: #054d5d;
+  --accent-hover-rgb: 5, 77, 93;
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+  /* Neutral Grays */
+  --gray: #5c7373;
+  --gray-rgb: 92, 115, 115;
+  --gray-hover: #4d6262;
+  --gray-hover-rgb: 77, 98, 98;
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+  /* Alerts / Highlights */
+  --danger: #d62828;
+  --danger-rgb: 214, 40, 40;
+  --danger-hover: #a61c1c;
+  --danger-hover-rgb: 166, 28, 28;
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  --highlight: #afffcb;
+  --highlight-rgb: 175, 255, 203;
+
+  /* Layout Sizes */
+  --header-height: 4rem;
+  --footer-height: 12rem;
+
+  /* Breakpoints */
+  --laptopWidth: 64em;
+  --tabletWidth: 48em;
+  --largePhoneWidth: 37.5em;
+  --regularPhoneWidth: 30em;
+  --smallPhoneWidth: 22.5em;
 }
