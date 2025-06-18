@@ -2,7 +2,7 @@
   padding: 3rem 1rem;
   background-color: var(--background);
   color: var(--text);
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
   gap: 2rem;
   margin: 0 1.5rem;
 }

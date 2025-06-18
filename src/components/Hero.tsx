@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
         </div>
         <div className={styles.imageContainer}>
           <img
-            src="/img/hero-illustration.svg"
+            src="/img/hero-illustration2.svg"
             alt="Developer Illustration"
             className={styles.image}
           />
