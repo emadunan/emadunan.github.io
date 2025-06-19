@@ -15,9 +15,9 @@ const Contact: React.FC = () => {
           <a href="mailto:emadunan@gmail.com">emadunan@gmail.com</a>
         </li>
         <li>
-          <strong>Portfolio:</strong>{" "}
-          <a href="https://emadunan.github.io" target="_blank" rel="noopener noreferrer">
-            emadunan.github.io
+          <strong>LinkedIn:</strong>{" "}
+          <a href="https://linkedin.com/in/emadunan" target="_blank" rel="noopener noreferrer">
+            linkedin.com/in/emadunan
           </a>
         </li>
         <li>
@@ -27,9 +27,9 @@ const Contact: React.FC = () => {
           </a>
         </li>
         <li>
-          <strong>LinkedIn:</strong>{" "}
-          <a href="https://linkedin.com/in/emadunan" target="_blank" rel="noopener noreferrer">
-            linkedin.com/in/emadunan
+          <strong>Portfolio:</strong>{" "}
+          <a href="https://emadunan.github.io" target="_blank" rel="noopener noreferrer">
+            emadunan.github.io
           </a>
         </li>
         <li>
@@ -42,6 +42,12 @@ const Contact: React.FC = () => {
           <strong>Facebook:</strong>{" "}
           <a href="https://www.facebook.com/emad.younan.507578" target="_blank" rel="noopener noreferrer">
             Meet me in Facebook
+          </a>
+        </li>
+        <li>
+          <strong>YouTube:</strong>{" "}
+          <a href="https://www.youtube.com/@emadunan" target="_blank" rel="noopener noreferrer">
+            youtube.com/@emadunan
           </a>
         </li>
         <li>

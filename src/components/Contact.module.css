@@ -28,9 +28,9 @@
   margin: 0;
   font-size: 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
-  max-width: 24rem;
+  max-width: 38rem;
 }
 
 .infoList li {
@@ -50,9 +50,14 @@
   color: var(--accent-hover);
 }
 
+@media (max-width: 50rem) {
+  .infoList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (max-width: 30rem) {
   .infoList {
-    display: grid;
     grid-template-columns: 1fr;
   }
 }

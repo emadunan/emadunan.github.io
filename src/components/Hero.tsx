@@ -8,8 +8,9 @@ const Hero: React.FC = () => {
         <div className={styles.text}>
           <h1 className={styles.heading}>Hi, I'm Emad Younan</h1>
           <p className={styles.subheading}>
-            Web Developer specialized in TypeScript, React, and Node.js. I craft clean, performant, and user-friendly interfaces.
+            Full-Stack Web Developer specializing in TypeScript, React, Node.js, and PostgreSQL. I craft robust APIs, clean UIs, and scalable web applications across the stack.
           </p>
+
           <a href="#contact" className={styles.cta}>Let’s Work Together</a>
         </div>
         <div className={styles.imageContainer}>
